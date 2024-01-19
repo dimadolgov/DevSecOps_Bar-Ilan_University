@@ -141,17 +141,17 @@
 ### Containers
 - `docker login` - Login to DockerHub
 - `docker pull IMAGE` - Pull image from Repository
-- `docker push REPOSITORY/IAMGE_NAME:latest ` - Push Image to DockerHub
+- `docker tag myapp yourdockerhubaccount/myapp:v1.0` - Tagging a Docker image with a new name and optional tag
+- `docker push account/image_name:tag ` - Push Image to DockerHub
 - `docker search IMAGE` - Search image in the repository
 - `docker build -t TAG .` - Build an image from Dockerfile
-- `docker run -p 8080:80 --name MY_IMAGE_NAME IMAGE_ID - Run container with our name
+- `docker run -p 8080:80 --name MY_IMAGE_NAME IMAGE_ID` - Run container with our name
 - `docker run -it IMAGE_ID /bin/bash` - Run a container from an image with a terminal with bash commands
 - `docker run -d -p 8080:80 IMAGE_ID` - Run a container in Daemon(Service) mode and publish port 8080 to 80
 - `docker ps` - Show all active containers
 - `docker ps -a` - Show all containers
 - `docker images` - Show all local Images
 - `docker rmi Contained_ID -f` - Force remove running Container
-- `
 - `ARG DEBIAN_FRONTEND=noninteractive` - Skip promts (Add to Dockerfile as step)
 
 
