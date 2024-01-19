@@ -3,17 +3,19 @@
 ## Table of Contents
 - [Linux Administration - Lesson 2 - 19.12.2023](#lesson-2---19122023)
   - [Basic Commands](#basic-commands)
-- [Linux Administration - [Lesson 3 - 02.01.2024](#lesson-3---02012024)
-  - [Work with find / grep](#work-with-find--grep)
+- [Linux Administration - Lesson 3 - 02.01.2024](#lesson-3---02012024)
+  - [Find and Grep](#work-with-find--grep)
   - [Disk and Partitions](#disk-and-partitions)
-- [[Linux Administration - Lesson 4 - 05.01.2024](#lesson-4---05012024)
+- [Linux Administration - Lesson 4 - 05.01.2024](#lesson-4---05012024)
   - [User Management](#user-management)
-- [[Linux Administration - Lesson 6 - 12.01.2024](#lesson-6---12012024)
-  - [Package Management RHEL \ Ubuntu and General Services](#package-management-rhel--ubuntu-and-general-services)
-- [[Linux Administration - Lesson 7 - 16.01.2024](#lesson-7---16012024)
+- [Linux Administration - Lesson 6 - 12.01.2024](#lesson-6---12012024)
+  - [Package Management](#package-management)
+  - [General Services](#general-services)
+- [Linux Administration - Lesson 7 - 16.01.2024](#lesson-7---16012024)
   - [Network Management](#network-management)
-- [[Linux Administration - Lesson 8 - 19.01.2024](#lesson-8---19012024)
+- [Linux Administration - Lesson 8 - 19.01.2024](#lesson-8---19012024)
   - [Containers](#containers)
+
 
 ## Lesson 2 - 19.12.2023
 
@@ -89,7 +91,7 @@
 
 ## Lesson 6 - 12.01.2024
 
-### Package Management RHEL \ Ubuntu and General Services
+### Package Management 
 - `rpm -qa` - List all installed packages
 - `rpm -qi packageName` - Query information about a specific package. Replace "packageName" with the name of the package
 - `rpm -ivh /path/to/package.rpm` - Install a package from an RPM file. Replace "/path/to/package.rpm" with the actual path to the RPM file
@@ -108,6 +110,8 @@
 - `apt full-upgrade` - Upgrade the system by removing/installing/upgrading packages
 - `apt edit-sources` - Edit the source information file
 - `apt satisfy` - Satisfy dependency strings
+
+### General Services
 - `systemctl status ServiceName` - Get Service Status
 - `systemctl start ServiceName` - Start Service Status
 - `systemctl stop ServiceName` - Stop Service Status
@@ -138,7 +142,7 @@
 - `docker pull IMAGE` - Pull image from Repository
 - `docker search IMAGE` - Search image in the repository
 - `docker build -t TAG .` - Build an image from Dockerfile
-- `docker run -it IMAGE_ID /bin/bash` - Run a container from an image with a terminal using /bin/bash
+- `docker run -it IMAGE_ID /bin/bash` - Run a container from an image with a terminal with bash commands
 - `docker run -d IMAGE_ID -p 80:80` - Run a container in Daemon(Service) mode and publish on port 80
 - `docker ps` - Show all active containers
 - `docker ps -a` - Show all containers
