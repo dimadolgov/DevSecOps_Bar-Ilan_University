@@ -139,14 +139,32 @@
 ## Lesson 8 - 19.01.2024
 
 ### Containers
+- `docker login` - Login to DockerHub
 - `docker pull IMAGE` - Pull image from Repository
+- `docker push REPOSITORY/IAMGE_NAME:latest ` - Push Image to DockerHub
 - `docker search IMAGE` - Search image in the repository
 - `docker build -t TAG .` - Build an image from Dockerfile
 - `docker run -it IMAGE_ID /bin/bash` - Run a container from an image with a terminal with bash commands
-- `docker run -d IMAGE_ID -p 80:80` - Run a container in Daemon(Service) mode and publish on port 80
+- `docker run -d -p 8080:80 IMAGE_ID` - Run a container in Daemon(Service) mode and publish port 8080 to 80
 - `docker ps` - Show all active containers
 - `docker ps -a` - Show all containers
 - `docker images` - Show all local Images
+- `docker rmi Contained_ID -f` - Force remove running Container
+- `
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
