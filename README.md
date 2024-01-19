@@ -1,18 +1,18 @@
 # Linux Administration course in Bar-Ilan University DevSecOps Program
 
 ## Table of Contents
-- [Lesson 2 - 19.12.2023](#lesson-2---19122023)
+- [Linux Administration - Lesson 2 - 19.12.2023](#lesson-2---19122023)
   - [Basic Commands](#basic-commands)
-- [Lesson 3 - 02.01.2024](#lesson-3---02012024)
+- [Linux Administration - [Lesson 3 - 02.01.2024](#lesson-3---02012024)
   - [Work with find / grep](#work-with-find--grep)
   - [Disk and Partitions](#disk-and-partitions)
-- [Lesson 4 - 05.01.2024](#lesson-4---05012024)
+- [[Linux Administration - Lesson 4 - 05.01.2024](#lesson-4---05012024)
   - [User Management](#user-management)
-- [Lesson 6 - 12.01.2024](#lesson-6---12012024)
+- [[Linux Administration - Lesson 6 - 12.01.2024](#lesson-6---12012024)
   - [Package Management RHEL \ Ubuntu and General Services](#package-management-rhel--ubuntu-and-general-services)
-- [Lesson 7 - 16.01.2024](#lesson-7---16012024)
+- [[Linux Administration - Lesson 7 - 16.01.2024](#lesson-7---16012024)
   - [Network Management](#network-management)
-- [Lesson 8 - 19.01.2024](#lesson-8---19012024)
+- [[Linux Administration - Lesson 8 - 19.01.2024](#lesson-8---19012024)
   - [Containers](#containers)
 
 ## Lesson 2 - 19.12.2023
@@ -142,3 +142,8 @@
 - `docker run -d IMAGE_ID -p 80:80` - Run a container in Daemon mode and use port 80
 - `docker ps` - Show all active containers
 - `docker ps -a` - Show all containers
+- `
+
+
+
+
