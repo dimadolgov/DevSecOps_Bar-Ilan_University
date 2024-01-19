@@ -1,4 +1,4 @@
-# Linux Administration course in Bar-Ilan University DevSecOps Programm
+# Linux Administration course in Bar-Ilan University DevSecOps Program
 
 ## Table of Contents
 - [Lesson 2 - 19.12.2023](#lesson-2---19122023)
