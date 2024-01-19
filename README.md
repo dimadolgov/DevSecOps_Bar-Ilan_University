@@ -139,10 +139,10 @@
 - `docker search IMAGE` - Search image in the repository
 - `docker build -t TAG .` - Build an image from Dockerfile
 - `docker run -it IMAGE_ID /bin/bash` - Run a container from an image with a terminal using /bin/bash
-- `docker run -d IMAGE_ID -p 80:80` - Run a container in Daemon mode and use port 80
+- `docker run -d IMAGE_ID -p 80:80` - Run a container in Daemon(Service) mode and publish on port 80
 - `docker ps` - Show all active containers
 - `docker ps -a` - Show all containers
-- `
+- `docker images` - Show all local Images
 
 
 
