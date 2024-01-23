@@ -168,6 +168,12 @@
 - `git add .` - Add changes in the working directory to the staging area
 - `git rm --cached <file>` - Remove a file from the staging area while keeping it in the working directory
 - `git commit -m "Initial Commit"` - Commit the staged changes with a descriptive message
+- `git commit` - Commit the staged change using Text Editor
+- `git restore <file>` - Discard changes in the working directory and restore the specified file to its last committed state
+- `git checkout <file>` ` Discard changes in the working directory and restore the specified file to its last committed state
+- `git log` - Display a log of commits, showing commit hashes, authors, dates, and commit messages
+- `git branch <NewBranchName>` - Create a new branch with the specified name
+- `git branch ` Display a list of existing branches and highlight the current branch
 
 
 
