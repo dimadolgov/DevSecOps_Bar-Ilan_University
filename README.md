@@ -1,4 +1,4 @@
-# Linux Administration course in Bar-Ilan University DevSecOps Program
+# Bar-Ilan University DevSecOps
 
 ## Table of Contents
 - [Linux Administration - Lesson 2 - 19.12.2023](#lesson-2---19122023)
@@ -15,6 +15,8 @@
   - [Network Management](#network-management)
 - [Linux Administration - Lesson 8 - 19.01.2024](#lesson-8---19012024)
   - [Containers](#containers)
+- [Git - Lesson 9 - 23.01.2024](#lesson-9---23012024)
+  - [Git](#git)
 
 
 ## Lesson 2 - 19.12.2023
@@ -154,8 +156,18 @@
 - `docker rmi Contained_ID -f` - Force remove running Container
 - `ARG DEBIAN_FRONTEND=noninteractive` - Skip promts (Add to Dockerfile as step)
 
+## Lesson 9 - 23.01.2024
 
-
+### Git
+- `git init` - Initialize a new Git repository in the current directory
+- `git config user.name <Username>` - Configure user name for Git ONLY for current repository
+- `git config user.email <email>` - Configure email for Git ONLY for current repository
+- `git config --global user.name <Username>` - Configure user name for Git Globally
+- `git config --global user.email <email>` - Configure email for Git Globally
+- `git status` - Display the status of the working directory and staging area
+- `git add .` - Add changes in the working directory to the staging area
+- `git rm --cached <file>` - Remove a file from the staging area while keeping it in the working directory
+- `git commit -m "Initial Commit"` - Commit the staged changes with a descriptive message
 
 
 
