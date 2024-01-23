@@ -27,6 +27,7 @@
 - `cd` - Change to the user's home directory
 - `mkdir` - Create a new directory (replace 'new_directory' with the desired directory name)
 - `ls -a` - List all files, including hidden ones, in the current directory
+- `ls -il <path>` - Display detailed information about files in the specified path, including inode numbers
 - `apt update` - Update the package list to get information on the newest versions of packages
 - `apt upgrade` - Upgrade installed packages to their latest versions
 - `cp` - Copy files or directories
@@ -175,6 +176,7 @@
 - `git log` - Display a log of commits, showing commit hashes, authors, dates, and commit messages
 - `git branch <NewBranchName>` - Create a new branch with the specified name
 - `git branch` Display a list of existing branches and highlight the current branch
+- `git merge <source_branch>` - Merge changes from another branch into the current branch
 
 
 
