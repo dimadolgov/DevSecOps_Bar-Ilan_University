@@ -188,7 +188,7 @@
 - `ssh-keygen` - Generate a new SSH key pair
 - `eval "$(ssh-agent -s)"` - Start the SSH agent
 - `ssh-add <KeyName>` - Add the SSH private key to the SSH agent
-
+- `start-ssh-agent` - Start SSH Agent in Windows
 
 
 
