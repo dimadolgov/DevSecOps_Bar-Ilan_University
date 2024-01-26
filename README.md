@@ -181,8 +181,10 @@
 ## Lesson 10 - 26.01.2024
 
 ### Git Commands
-
-
+- `git log --graph` - Show commit history with a graphical representation of branches and merges
+git clone <>
+git remote add <origin> <git@github.com:username/repo.git>
+git push --set-upstream origin
 
 
 
