@@ -182,9 +182,10 @@
 
 ### Git Commands
 - `git log --graph` - Show commit history with a graphical representation of branches and merges
-- `git clone <>` - 
-- `git remote add <origin> <git@github.com:username/repo.git>` - 
-- `git push --set-upstream origin` - 
+- `git clone <>` - Clone a repository
+- `git remote add <origin> <git@github.com:username/repo.git>` - Add a remote named "origin" pointing to the repository
+- `git push --set-upstream origin main` - Push local changes to the remote repository named "origin" and Set up the tracking relationship for the "main" branch
+
 
 
 
