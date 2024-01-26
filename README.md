@@ -178,7 +178,9 @@
 - `git branch` Display a list of existing branches and highlight the current branch
 - `git merge <source_branch>` - Merge changes from another branch into the current branch
 
+## Lesson 10 - 26.01.2024
 
+### Git Commands
 
 
 
