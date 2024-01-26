@@ -180,15 +180,16 @@
 
 ## Lesson 10 - 26.01.2024
 
-### Git Commands
-- `git log --graph` - Show commit history with a graphical representation of branches and merges
-- `git clone <>` - Clone a repository
-- `git remote add <origin> <git@github.com:username/repo.git>` - Add a remote named "origin" pointing to the repository
-- `git push --set-upstream origin main` - Push local changes to the remote repository named "origin" and Set up the tracking relationship for the "main" branch
-- `ssh-keygen` - Generate a new SSH key pair
+### GitHub Commands
+- `ssh-keygen` - Generate a new SSH key pair (Copy PUBLIC Key to GitHub)
 - `eval "$(ssh-agent -s)"` - Start the SSH agent in Linux
 - `start-ssh-agent` - Start SSH Agent in Windows
 - `ssh-add <KeyName>` - Add the SSH private key to the SSH agent 
+- `git log --graph` - Show commit history with a graphical representation of branches and merges
+- `git clone <repo>` - Clone a repository
+- `git remote add <origin> <git@github.com:username/repo.git>` - Add a remote named "origin" pointing to the repository
+- `git push --set-upstream origin main` - Push local changes to the remote repository named "origin" and Set up the tracking relationship for the "main" branch
+
 
 
 
