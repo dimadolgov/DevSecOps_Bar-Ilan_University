@@ -186,9 +186,10 @@
 - `git remote add <origin> <git@github.com:username/repo.git>` - Add a remote named "origin" pointing to the repository
 - `git push --set-upstream origin main` - Push local changes to the remote repository named "origin" and Set up the tracking relationship for the "main" branch
 - `ssh-keygen` - Generate a new SSH key pair
-- `eval "$(ssh-agent -s)"` - Start the SSH agent
-- `ssh-add <KeyName>` - Add the SSH private key to the SSH agent
+- `eval "$(ssh-agent -s)"` - Start the SSH agent in Linux
 - `start-ssh-agent` - Start SSH Agent in Windows
+- `ssh-add <KeyName>` - Add the SSH private key to the SSH agent 
+
 
 
 
