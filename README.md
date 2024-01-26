@@ -17,6 +17,7 @@
   - [Containers](#containers)
 - [Git - Lesson 9 - 23.01.2024](#lesson-9---23012024)
   - [Git Commands](#git-commands)
+- [Git - Lesson 10 - 26.01.2024](#lesson-10---26012024)
   - [GitHub Commands](#github-commands)
 
 
