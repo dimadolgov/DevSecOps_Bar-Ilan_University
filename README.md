@@ -19,7 +19,9 @@
   - [Git Commands](#git-commands)
 - [Git - Lesson 10 - 26.01.2024](#lesson-10---26012024)
   - [GitHub Commands](#github-commands)
-
+- [Git - Lesson 11 - 30.01.2024](#lesson-11---30012024)
+  - [GitHub Commands](#github-commands)
+  - [BASH](#bash)
 
 ## Lesson 2 - 19.12.2023
 
@@ -193,14 +195,17 @@
 - `git push --set-upstream origin main` - Push local changes to the remote repository named "origin" and Set up the tracking relationship for the "main" branch
 
 
+## Lesson 11 - 30.01.2024
 
+### GitHub Commands
+- `git remote -v` - Display URLs for remote repositories (fetch and push)
+- `git branch -a` - List all branches (local and remote-tracking)
+- `git branch -r` - List only remote-tracking branches
+- `git fetch` - Fetch the latest changes from the remote repository (no automatic merge)
+- `git checkout -b <RemoteBranch> remotes/origin/<SecondBranch>` - Create a new local branch and set up tracking from a remote branch
+- `git branch -d <BranchToDelete>` - 
 
-
-
-
-
-
-
+### BASH
 
 
 
