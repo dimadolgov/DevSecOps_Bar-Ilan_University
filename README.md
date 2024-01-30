@@ -203,7 +203,7 @@
 - `git branch -r` - List only remote-tracking branches
 - `git fetch` - Fetch the latest changes from the remote repository (no automatic merge)
 - `git checkout -b <RemoteBranch> remotes/origin/<SecondBranch>` - Create a new local branch and set up tracking from a remote branch
-- `git branch -d <BranchToDelete>` - 
+- `git branch -d <BranchToDelete>` - Delete the local branch '<BranchToDelete>'
 
 ### BASH
 
