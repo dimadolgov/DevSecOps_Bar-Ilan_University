@@ -205,7 +205,60 @@
 - `git checkout -b <RemoteBranch> remotes/origin/<SecondBranch>` - Create a new local branch and set up tracking from a remote branch
 - `git branch -d <BranchToDelete>` - Delete the local branch '<BranchToDelete>'
 
-### BASH
+## Lesson 12 - 02.02.2024
+
+### BASH Basics
+
+# BASH Scripting Examples
+
+## Hello World Script:
+
+```bash
+#!/bin/bash
+# This is a simple Hello World script in BASH
+
+echo "Hello, World!"
+```
+
+##  User Input Script:
+```bash
+#!/bin/bash
+# A script that takes user input and displays a message
+
+echo "Enter your name:"
+read name
+
+echo "Hello, $name! Welcome to the world of BASH scripting."
+```
+## File Manipulation Script:
+```bash
+#!/bin/bash
+# A script to manipulate files
+
+# Create a new directory
+mkdir my_files
+
+# Navigate to the new directory
+cd my_files
+
+# Create three empty files
+touch file1.txt
+touch file2.txt
+touch file3.txt
+
+# Display the list of files in the directory
+echo "Files in the directory:"
+ls
+```
+
+
+
+
+
+
+
+
+
 
 
 
