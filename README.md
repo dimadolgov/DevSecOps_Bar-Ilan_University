@@ -142,6 +142,24 @@
 - `nc -l 2000` - Netcat listen to port 2000
 - `nc IP 2000` - Connect using netcat to IP on port 2000
 - `curl https://google.com:443` - Sends a simple HTTP GET request to the server on the specified port
+- `cd /etc/netplan/` - Edit Netplan to change IP Address
+  ```yaml
+  # This file describes the network interfaces available on your system
+  # For more information, see netplan(5).
+  network:
+    version: 2
+    renderer: networkd
+    ethernets:
+      enp0s3:
+       dhcp4: no
+       addresses: [192.168.1.222/24]
+       gateway4: 192.168.1.1
+       nameservers:
+         addresses: [8.8.8.8, 8.8.4.4]
+ - -sudo netplan apply-
+
+
+  
 
 ## Lesson 8 - 19.01.2024
 
